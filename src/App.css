@@ -1,0 +1,62 @@
+/* src/App.css */
+.App {
+  background-color: #333;
+  height: 715px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-container {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #a3a8ae;
+}
+
+.question-section {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.question-count {
+  font-size: 14px;
+  color: #f7f7f7;
+  margin-bottom: 5px;
+}
+
+.question-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.answer-options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #daf0ff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c7f1f8;
+}
+
+.score-section {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
